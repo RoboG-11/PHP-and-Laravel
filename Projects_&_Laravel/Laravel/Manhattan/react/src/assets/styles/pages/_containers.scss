@@ -1,0 +1,6 @@
+.containers {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); // Tres columnas con el mismo ancho
+  gap: 20px; // Espacio entre las cartas
+
+}

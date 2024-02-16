@@ -1,0 +1,16 @@
+aside {
+  background-color: rgb(28, 37, 54);
+  width: 280px;
+  padding: 1rem;
+  a {
+    display: block;
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s;
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.04);
+    }
+  }
+}

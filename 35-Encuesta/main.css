@@ -1,0 +1,78 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Alike, sans-serif;
+}
+
+h2{
+  text-align: center;
+}
+
+.center{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4978e;
+}
+
+form{
+  background-color: #a3c4f3;
+  margin: 0 auto;
+  width: 500px;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.opcion{
+  padding: 10px 0;
+  text-align: left;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.barra{
+  background-color: #9a6ed1;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.seleccionado{
+  background-color: #482872;
+  border-radius: 4px;
+  color: white;
+  padding: 10px;
+}
+
+h3{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+input{
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px 9px;
+  margin: 8px;
+  border-radius: 5px;
+  background-color: #8456bf;
+}
+
+input:hover{
+  background-color: #482872;
+  transform: translate(-1px, -1px);
+}
+
+input:active{
+  transform: translate(0px, 0px);
+}
+
+.boton-votar{
+  margin-top: 25px;
+}

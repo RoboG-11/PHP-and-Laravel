@@ -1,0 +1,28 @@
+.doctor-detail {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  h1 {
+    font-size: 2em;
+  }
+  .doctor-info {
+    display: flex;
+    gap: 20px;
+    .personal-info,
+    .specialties,
+    .establishments {
+      flex: 1;
+    }
+    h2 {
+      font-size: 1.5em;
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      li {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

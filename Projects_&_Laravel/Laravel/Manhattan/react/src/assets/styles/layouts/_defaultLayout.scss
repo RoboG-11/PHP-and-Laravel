@@ -1,0 +1,22 @@
+#defaultLayout {
+  display: flex;
+}
+
+
+#defaultLayout .content {
+  flex: 1;
+}
+
+#defaultLayout header {
+  height: 80px;
+  padding: 2rem 3rem;
+  background-color: white;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#defaultLayout main {
+  padding: 2rem;
+}

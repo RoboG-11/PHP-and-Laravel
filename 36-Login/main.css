@@ -1,0 +1,104 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+form{
+  background-color: #2779a7;
+  margin: 0 auto;
+  border-radius: 15px;
+  width: 411px;
+  padding: 20px;
+}
+
+input{
+  border: solid 0;
+  border-radius: 3px;
+}
+
+input[type=text], input[type=password]{
+  padding: 10px;
+  font-size: 18px;
+  outline: none;
+  width: 370px;
+}
+input[type=submit]{
+  background-color: #3905b6;
+  color: white;
+  padding: 8px;
+  border: none;
+  width: 200px;
+}
+
+.center input:hover{
+  background-color: #482872;
+  transform: translate(-1px, -1px);
+}
+
+input:active{
+  transform: translate(0px, 0px);
+}
+
+.center{
+  text-align: center;
+  padding-top: 30px;
+}
+
+.opcion{
+  padding: 5px 0;
+}
+
+.barra{
+  background-color:rgb(152, 196, 236);
+  border-radius: 4px;
+  padding: 10px;
+}
+
+.seleccionado{
+  background-color: rgb(33, 90, 143);
+  border-radius: 4px;
+  color: white;
+  padding: 10px;
+}
+
+#menu{
+  background-color: #f1c058;
+  padding: 10px;
+}
+#menu ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block;
+  width: 100%;
+}
+#menu ul li{
+  display: inline;
+}
+#menu ul li a{
+  color: #1E69E3;
+  text-decoration: none;
+}
+#menu ul li a:hover{
+  color: rgb(227, 109, 30);
+  text-decoration: none;
+}
+.cerrar-sesion{
+  float: right;
+}
+
+.centrar{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #49c5b6;
+}
+
+.titulo{
+  padding-bottom: 20px;
+}
